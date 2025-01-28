@@ -1,0 +1,39 @@
+{
+    "name": "Item",
+    "properties": {
+        "name": {
+            "type": "string",
+            "show_on_table": true,
+            "table_header": "Name",
+            "table_type": "string",
+            "show_on_mobile": true,
+            "is_filter_field": true,
+            "filter_field_type": "text"
+        },
+        "role": {
+            "type": "string",
+            "show_on_table": true,
+            "table_header": "Role",
+            "table_type": "badge",
+            "show_on_mobile": true,
+            "format_fn": "color_map",
+            "format_options": {
+                "Admin": "bg-green-500",
+                "Moderator": "bg-orange-500"
+            },
+            "is_filter_field": true,
+            "filter_field_type": "select",
+            "filter_options": ["Admin", "Moderator"]
+        }
+    },
+    "actions": {
+        "view": {
+            "label": "View",
+            "function": "modal_view_entry"
+        },
+        "edit": {
+            "label": "Edit",
+            "function": "modal_edit_entry"
+        }
+    }
+}
