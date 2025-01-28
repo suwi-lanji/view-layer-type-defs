@@ -323,7 +323,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For questions or feedback, please open an issue on the [GitHub repository](https://github.com/suwi-lanji/view-layer-type-defs).
-
----
-
-This documentation provides a clear overview of the project, its features, and how to use it. Let me know if you need further assistance! 😊
