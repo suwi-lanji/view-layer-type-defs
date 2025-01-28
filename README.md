@@ -1,7 +1,3 @@
-Here’s a comprehensive documentation for your project, **`view-layer-type-defs`**, which generates type definitions for **MerriamTables** from JSON configuration files. MerriamTables uses **shadcn tables** and **TanStack Table** under the hood.
-
----
-
 # View Layer Type Definitions (`view-layer-type-defs`)
 
 ## Overview
