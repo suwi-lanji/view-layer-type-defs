@@ -21,7 +21,7 @@ This tool automates the process of creating type-safe definitions for tables, en
 To use `view-layer-type-defs`, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/view-layer-type-defs.git
+git clone https://github.com/suwi-lanji/view-layer-type-defs.git
 cd view-layer-type-defs
 npm install
 ```
@@ -134,7 +134,7 @@ You can configure the script using environment variables which can be placed in 
 
 Example:
 ```bash
-SCHEMA_DIR=./my-schemas OUTPUT_DIR=./my-output npm run generate
+SCHEMA_DIR=./my-schemas OUTPUT_DIR=./my-output npm start
 ```
 
 ---
